@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>خلّصلك | الورق الحكومي.. من غير لفّة</title>
+  <meta name="description" content="دليل إرشادي مستقل يوضح لك الأوراق المطلوبة، الخطوات، وأبرز الأخطاء الشائعة قبل أن تغادر بيتك.">
+
+  <!-- Favicon / Seal Icon -->
+  <link rel="icon" type="image/svg+xml" href="./assets/seal.svg">
+
+  <!-- Google Fonts Preconnect & Fonts (Section 02) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,700;1,700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
+
+  <!-- Foundation Stylesheet (Relative Path) -->
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Noscript Fallback for .reveal (Section 04) -->
+  <noscript>
+    <style>
+      .reveal {
+        opacity: 1 !important;
+        transform: none !important;
+      }
+    </style>
+  </noscript>
+</head>
+<body>
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">تخطي إلى المحتوى الرئيسي</a>
+
+  <!-- 1. Header (Section 03 & Section 07) -->
+  <header class="site-header" role="banner">
+    <div class="header-container">
+      <!-- Seal Logo & Brand Name -->
+      <a href="./index.html" class="brand-link" aria-label="خلّصلك - الصفحة الرئيسية">
+        <div class="seal-logo-wrap">
+          <svg class="seal-logo-img" viewBox="0 0 200 200" width="48" height="48" aria-hidden="true" focusable="false">
+            <defs>
+              <filter id="sealShadow" x="-10%" y="-10%" width="125%" height="125%">
+                <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#3c280a" flood-opacity="0.35"/>
+              </filter>
+            </defs>
+            <path filter="url(#sealShadow)" fill="#7B1E2B" d="M 182.00 100.00 A 11.94 11.94 0 0 1 179.94 118.25 A 11.94 11.94 0 0 1 173.88 135.58 A 11.94 11.94 0 0 1 164.11 151.13 A 11.94 11.94 0 0 1 151.13 164.11 A 11.94 11.94 0 0 1 135.58 173.88 A 11.94 11.94 0 0 1 118.25 179.94 A 11.94 11.94 0 0 1 100.00 182.00 A 11.94 11.94 0 0 1 81.75 179.94 A 11.94 11.94 0 0 1 64.42 173.88 A 11.94 11.94 0 0 1 48.87 164.11 A 11.94 11.94 0 0 1 35.89 151.13 A 11.94 11.94 0 0 1 26.12 135.58 A 11.94 11.94 0 0 1 20.06 118.25 A 11.94 11.94 0 0 1 18.00 100.00 A 11.94 11.94 0 0 1 20.06 81.75 A 11.94 11.94 0 0 1 26.12 64.42 A 11.94 11.94 0 0 1 35.89 48.87 A 11.94 11.94 0 0 1 48.87 35.89 A 11.94 11.94 0 0 1 64.42 26.12 A 11.94 11.94 0 0 1 81.75 20.06 A 11.94 11.94 0 0 1 100.00 18.00 A 11.94 11.94 0 0 1 118.25 20.06 A 11.94 11.94 0 0 1 135.58 26.12 A 11.94 11.94 0 0 1 151.13 35.89 A 11.94 11.94 0 0 1 164.11 48.87 A 11.94 11.94 0 0 1 173.88 64.42 A 11.94 11.94 0 0 1 179.94 81.75 A 11.94 11.94 0 0 1 182.00 100.00 Z"/>
+            <circle cx="100" cy="100" r="70" fill="none" stroke="#F5EDDA" stroke-width="1.5" stroke-opacity="0.8" stroke-dasharray="4 2"/>
+            <circle cx="100" cy="100" r="66" fill="none" stroke="#F5EDDA" stroke-width="0.8" stroke-opacity="0.45"/>
+            <text x="100" y="103" style="font-family: 'Amiri', serif; font-weight: 700; font-size: 32px; fill: #F5EDDA; text-anchor: middle; dominant-baseline: middle;">خلّصلك</text>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title" data-i18n="brandTitle">خلّصلك</span>
+          <span class="brand-kicker" data-i18n="brandKicker">دليل المعاملات الحكومية</span>
+        </div>
+      </a>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <button type="button" class="btn btn-outline" id="share-exp-btn" data-i18n="shareExpBtn">
+          شارك تجربتك
+        </button>
+
+        <button type="button" class="btn btn-lang-toggle" id="lang-toggle-btn" data-i18n-aria="langToggleAria" aria-label="التبديل إلى اللغة الإنجليزية">
+          <span aria-hidden="true" style="margin-inline-end: 4px;">🌐</span>
+          <span data-i18n="langToggleBtn">English</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main id="main-content" class="main-container" role="main">
+    
+    <!-- 2. Hero Section (First Screen) -->
+    <section class="sheet hero-sheet reveal" aria-labelledby="hero-title">
+      <h1 id="hero-title" class="hero-headline" data-i18n="heroHeadline">
+        الورق الحكومي.. من غير لَفّة
+      </h1>
+      
+      <p class="hero-supporting" data-i18n="heroSupporting">
+        دليل إرشادي مستقل يوضح لك الأوراق المطلوبة، الخطوات، وأبرز الأخطاء الشائعة قبل أن تغادر بيتك.
+      </p>
+
+      <!-- Large Search Box -->
+      <div class="search-container">
+        <div class="search-input-wrap">
+          <span class="search-icon" aria-hidden="true">🔍</span>
+          <input 
+            type="search" 
+            id="search-input" 
+            class="search-input" 
+            placeholder="ابحث عن معاملة (مثال: بطاقة الرقم القومي، جواز السفر، رخصة...)" 
+            data-i18n-placeholder="searchPlaceholder"
+            autocomplete="off"
+            aria-label="ابحث عن معاملة حكومية"
+          >
+          <button type="button" id="search-clear-btn" class="search-clear-btn" aria-label="مسح البحث">×</button>
+        </div>
+
+        <!-- Quick Chips -->
+        <div class="quick-chips-wrap">
+          <span class="chips-label" data-i18n="chipsLabel">الأكثر بحثاً:</span>
+          <button type="button" class="chip-btn" data-term="بطاقة الرقم القومي" data-i18n="chipId">بطاقة الرقم القومي</button>
+          <button type="button" class="chip-btn" data-term="جواز السفر" data-i18n="chipPassport">جواز السفر</button>
+          <button type="button" class="chip-btn" data-term="رخصة القيادة" data-i18n="chipDriving">رخصة القيادة</button>
+          <button type="button" class="chip-btn" data-term="شهادة الميلاد" data-i18n="chipBirth">شهادة الميلاد</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Categories Grid (Section 03, Item 3) -->
+    <section class="categories-section" id="categories-section" aria-labelledby="categories-heading">
+      <div class="section-title-wrap">
+        <span class="kicker" data-i18n="categoriesKicker">تصنيفات المعاملات</span>
+        <h2 id="categories-heading" class="section-heading" data-i18n="categoriesHeading">تصفح حسب قطاع المعاملة</h2>
+        <hr class="double-rule" aria-hidden="true">
+      </div>
+
+      <div class="categories-grid" id="categories-grid" role="region" aria-label="تصنيفات المعاملات">
+        <!-- Rendered via app.js -->
+      </div>
+    </section>
+
+    <!-- 4. Popular Procedures (Section 03, Item 4) -->
+    <section class="services-section" id="procedures-section" aria-labelledby="procedures-heading">
+      <div class="section-title-wrap">
+        <div class="category-filter-header">
+          <div>
+            <span class="kicker" data-i18n="proceduresKicker">المعاملات الأكثر طلباً</span>
+            <h2 id="procedures-heading" class="section-heading" data-i18n="proceduresHeading">قائمة الإجراءات المتاحة</h2>
+          </div>
+          <button type="button" id="category-filter-reset" class="filter-reset-btn" style="display: none;" data-i18n="allCategoriesBtn">
+            عرض كل التصنيفات
+          </button>
+        </div>
+        <hr class="double-rule" aria-hidden="true">
+      </div>
+
+      <!-- Procedures Cards Grid -->
+      <div class="services-grid" id="services-grid" role="region" aria-live="polite">
+        <!-- Rendered via app.js -->
+      </div>
+
+      <!-- Empty Search Results State -->
+      <div class="sheet search-empty-state" id="search-empty-state" style="display: none;">
+        <div class="empty-state-icon" aria-hidden="true">📜</div>
+        <h3 class="empty-state-title" data-i18n="emptyTitle">لم نعثر على معاملات مطابقة</h3>
+        <p class="empty-state-text" data-i18n="emptyText">جرّب البحث بكلمة مختلفة أو اختر تصنيفاً آخر من القائمة أعلاه.</p>
+        <button type="button" class="btn btn-outline" id="empty-reset-btn" data-i18n="emptyResetBtn">عرض كل المعاملات</button>
+      </div>
+    </section>
+
+    <!-- 5. How It Works (Section 03, Item 5) -->
+    <section class="how-it-works-section" aria-labelledby="how-heading">
+      <div class="section-title-wrap">
+        <span class="kicker" data-i18n="howKicker">كيف يعمل خلّصلك؟</span>
+        <h2 id="how-heading" class="section-heading" data-i18n="howHeading">ثلاث خطوات فقط.. قبل أن تخرج</h2>
+        <hr class="double-rule" aria-hidden="true">
+      </div>
+
+      <div class="steps-grid">
+        <!-- Step 1 -->
+        <article class="sheet step-card reveal">
+          <div class="step-number-seal">1</div>
+          <h3 class="step-title" data-i18n="step1Title">1. ابحث عن المعاملة</h3>
+          <p class="step-desc" data-i18n="step1Desc">
+            اختر الإجراء واعرف المتطلبات والمستندات الرسمية قبل التوجه إلى المصلحة.
+          </p>
+        </article>
+
+        <!-- Step 2 -->
+        <article class="sheet step-card reveal">
+          <div class="step-number-seal">2</div>
+          <h3 class="step-title" data-i18n="step2Title">2. راجع أوراقك</h3>
+          <p class="step-desc" data-i18n="step2Desc">
+            تأكد من تجهيز كل أصل وصورة بدقة وتجنب الرجوع بسبب ورقة ناقصة.
+          </p>
+        </article>
+
+        <!-- Step 3 -->
+        <article class="sheet step-card reveal">
+          <div class="step-number-seal">3</div>
+          <h3 class="step-title" data-i18n="step3Title">3. اذهب مرة واحدة</h3>
+          <p class="step-desc" data-i18n="step3Desc">
+            وفر وقتك ومجهودك وأنجز مشوارك بثقة وهدوء من أول زيارة.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 6. Why Trust Us (Section 03, Item 6) -->
+    <section class="trust-section" aria-labelledby="trust-heading">
+      <div class="section-title-wrap">
+        <span class="kicker" data-i18n="trustKicker">لماذا تثق بنا؟</span>
+        <h2 id="trust-heading" class="section-heading" data-i18n="trustHeading">دليل مستقل.. الصدق والأمانة أولاً</h2>
+        <hr class="double-rule" aria-hidden="true">
+      </div>
+
+      <div class="trust-grid">
+        <!-- Feature 1 -->
+        <article class="sheet trust-card reveal">
+          <div class="trust-icon" aria-hidden="true">🏛️</div>
+          <h3 class="trust-card-title" data-i18n="trust1Title">دليل مستقل تماماً</h3>
+          <p class="trust-card-desc" data-i18n="trust1Desc">
+            لسنا جهة حكومية ولا نمثل أي جهة رسمية؛ موقعنا مبني لمساعدة المواطنين على اجتياز الإجراءات بسهولة.
+          </p>
+        </article>
+
+        <!-- Feature 2 -->
+        <article class="sheet trust-card reveal">
+          <div class="trust-icon" aria-hidden="true">📑</div>
+          <h3 class="trust-card-title" data-i18n="trust2Title">لا نخمّن أي معلومة</h3>
+          <p class="trust-card-desc" data-i18n="trust2Desc">
+            لا نذكر رسماً أو مستنداً إلا بمصدر وتاريخ مراجعة واضح. المعاملات غير المؤكدة تظهر بوضوح أنها قيد المراجعة.
+          </p>
+        </article>
+
+        <!-- Feature 3 -->
+        <article class="sheet trust-card reveal">
+          <div class="trust-icon" aria-hidden="true">👥</div>
+          <h3 class="trust-card-title" data-i18n="trust3Title">تجارب وتصحيحات حقيقية</h3>
+          <p class="trust-card-desc" data-i18n="trust3Desc">
+            نعتمد على تحديثات مستمرة وملاحظات المواطنين لتنبيهك إلى أي تغييرات أو أخطاء شائعة في المكاتب.
+          </p>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Procedure Detail & Placeholder Modal (Honesty Rule: Unverified items show "قيد المراجعة") -->
+  <div class="modal-backdrop" id="procedure-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-service-title">
+    <div class="procedure-modal-sheet" role="document">
+      <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="إغلاق">✕</button>
+      
+      <div class="modal-header-row">
+        <span class="status-under-review" id="modal-status-tag">⏳ قيد المراجعة والتدقيق</span>
+      </div>
+
+      <h2 class="modal-title" id="modal-service-title">بطاقة الرقم القومي</h2>
+      <hr class="double-rule" aria-hidden="true">
+
+      <!-- Accuracy Guarantee Notice Banner -->
+      <div class="review-notice-banner">
+        <h4 class="review-notice-title" id="modal-notice-title">
+          <span>⚠️</span> تنبيه الأمانة والدقة:
+        </h4>
+        <p class="review-notice-body" id="modal-notice-body">
+          حرصاً على ألا يضيع وقتك أو مالك بسبب معلومة غير دقيقة، يقوم المشرفون حالياً بالتحقق من قائمة المستندات الرسمية، الرسوم المقررة، وأماكن التقديم الخاصة بهذه المعاملة قبل نشرها.
+        </p>
+      </div>
+
+      <!-- Placeholder Fields -->
+      <div class="modal-data-placeholder-grid">
+        <div class="data-box">
+          <div class="data-box-label" id="modal-fee-label">الرسوم المقررة</div>
+          <div class="data-box-val" id="modal-fee-val">قيد المراجعة (لا توجد أرقام تقديرية)</div>
+        </div>
+
+        <div class="data-box">
+          <div class="data-box-label" id="modal-duration-label">المدة المتوقعة</div>
+          <div class="data-box-val" id="modal-duration-val">قيد التدقيق والتحديث</div>
+        </div>
+
+        <div class="data-box">
+          <div class="data-box-label" id="modal-docs-label">المستندات المطلوبة</div>
+          <div class="data-box-val" id="modal-docs-val">جاري اعتماد القائمة الرسمية وتدقيق المتطلبات</div>
+        </div>
+
+        <div class="data-box">
+          <div class="data-box-label" id="modal-where-label">مكان التقديم</div>
+          <div class="data-box-val" id="modal-where-val">جاري حصر وتحديث المكاتب المعتمدة</div>
+        </div>
+      </div>
+
+      <!-- Section 05: Mistakes People Make (Burgundy-Edged Box) -->
+      <div class="mistakes-box">
+        <div class="mistakes-header">
+          <span style="font-size: 1.2rem;" aria-hidden="true">📌</span>
+          <h4 class="mistakes-title" id="modal-mistakes-title">صندوق الأخطاء الشائعة:</h4>
+        </div>
+        <p class="mistakes-body" id="modal-mistakes-body">
+          قيد الرصد والتوثيق من واقع تجارب المواطنين (مثل عدد الصور، توقيتات العمل، وشهادات إثبات القيد).
+        </p>
+      </div>
+
+      <div class="modal-actions-row">
+        <button type="button" class="btn btn-primary" id="modal-close-action-btn">إغلاق الورقة</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7. Footer (Section 06 & Section 07) -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-top-accent"></div>
+    <div class="footer-container">
+      
+      <!-- Section 06 Mandatory Legal Disclaimer Box -->
+      <div class="footer-disclaimer-sheet" role="region" aria-labelledby="footer-disclaimer-title">
+        <div class="disclaimer-header">
+          <span class="disclaimer-icon" aria-hidden="true">⚖️</span>
+          <h3 id="footer-disclaimer-title" class="disclaimer-title" data-i18n="disclaimerTitle">تنويه قانوني واستقلالية تامة</h3>
+        </div>
+        <p class="disclaimer-text" data-i18n="disclaimerText">
+          معلومات استرشادية من مصادر منشورة وتجارب مستخدمين. نحن لسنا جهة حكومية، والجهة الرسمية هي المرجع النهائي. تأكد من المتطلبات والرسوم قبل الذهاب.
+        </p>
+      </div>
+
+      <!-- Footer Navigation & Meta Row -->
+      <div class="footer-meta-row">
+        <ul class="footer-nav" aria-label="روابط الموقع">
+          <li><a href="#footer-disclaimer-title" class="footer-nav-link" data-i18n="navDisclaimer">إخلاء المسؤولية</a></li>
+          <li><a href="#hero-title" class="footer-nav-link" data-i18n="navAbout">عن خلّصلك</a></li>
+          <li><a href="#share-exp-btn" class="footer-nav-link" data-i18n="navReport">أبلغ عن تصحيح</a></li>
+          <li><a href="#share-exp-btn" class="footer-nav-link" data-i18n="navContact">تواصل معنا</a></li>
+        </ul>
+
+        <p class="footer-copy" data-i18n="copyrightText">
+          © 2026 خلّصلك · دليل إرشادي مستقل للمستندات والمعاملات الرسمية. جميع الحقوق محفوظة.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Application Script (Relative Path) -->
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&amp;display=swap');
+      .seal-text {
+        font-family: 'Amiri', serif;
+        font-weight: 700;
+        font-size: 34px;
+        fill: #F5EDDA;
+        text-anchor: middle;
+        dominant-baseline: central;
+      }
+    </style>
+    <filter id="sealShadow" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#3c280a" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Wax seal scalloped body -->
+  <path filter="url(#sealShadow)" fill="#7B1E2B" d="M 182.00 100.00 A 11.94 11.94 0 0 1 179.94 118.25 A 11.94 11.94 0 0 1 173.88 135.58 A 11.94 11.94 0 0 1 164.11 151.13 A 11.94 11.94 0 0 1 151.13 164.11 A 11.94 11.94 0 0 1 135.58 173.88 A 11.94 11.94 0 0 1 118.25 179.94 A 11.94 11.94 0 0 1 100.00 182.00 A 11.94 11.94 0 0 1 81.75 179.94 A 11.94 11.94 0 0 1 64.42 173.88 A 11.94 11.94 0 0 1 48.87 164.11 A 11.94 11.94 0 0 1 35.89 151.13 A 11.94 11.94 0 0 1 26.12 135.58 A 11.94 11.94 0 0 1 20.06 118.25 A 11.94 11.94 0 0 1 18.00 100.00 A 11.94 11.94 0 0 1 20.06 81.75 A 11.94 11.94 0 0 1 26.12 64.42 A 11.94 11.94 0 0 1 35.89 48.87 A 11.94 11.94 0 0 1 48.87 35.89 A 11.94 11.94 0 0 1 64.42 26.12 A 11.94 11.94 0 0 1 81.75 20.06 A 11.94 11.94 0 0 1 100.00 18.00 A 11.94 11.94 0 0 1 118.25 20.06 A 11.94 11.94 0 0 1 135.58 26.12 A 11.94 11.94 0 0 1 151.13 35.89 A 11.94 11.94 0 0 1 164.11 48.87 A 11.94 11.94 0 0 1 173.88 64.42 A 11.94 11.94 0 0 1 179.94 81.75 A 11.94 11.94 0 0 1 182.00 100.00 Z"/>
+
+  <!-- Inner border ring -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#F5EDDA" stroke-width="1.5" stroke-opacity="0.75" stroke-dasharray="4 2"/>
+  <circle cx="100" cy="100" r="66" fill="none" stroke="#F5EDDA" stroke-width="0.8" stroke-opacity="0.4"/>
+
+  <!-- Central brand name -->
+  <text x="100" y="99" class="seal-text" dir="rtl">خلّصلك</text>
+</svg>
